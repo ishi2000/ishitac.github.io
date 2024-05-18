@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Inter&family=Lato&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+        <style>
+            .font-inter{
+            font-family: "Inter","Lato";
+            font-style: normal
+            }
+            .bg-color-grey{
+                background-color: #323232;
+            }
+            .text-peach{
+                color: #FDC898;
+            }
+            .max-w-413{
+                max-width: 413px;
+            }
+            @keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.t-820{
+    top: -820px;
+}
+.text-pink{
+    color: #F998EF;
+}
+
+.animate-rotate {
+  animation: rotate 5s linear infinite;
+}
+        </style>
+    </head>
+    <body>
+        <section class="bg-color-grey flex">
+        <div class="mx-auto">
+        <div class="relative" style="top:80px">
+            <img src="Animation.svg" alt="circle" class="w-50 h-50 animate-rotate rounded-full">
+            <img src="mefinal.png" alt="" class="relative t-820">
+            
+        </div>    
+        </div>
+
+    <div class="absolute top-80">
+        <div class="ml-9">
+            <h3 class="font-inter text-peach text-7xl font-medium">Hi,I am Ishita</h3>
+            <p class="font-inter text-white text-xl font-normal max-w-413 py-6">I am happy you came to see my little world.
+                Here things might move around me :P.
+            </p>
+            <p class="font-inter text-white text-xl font-normal max-w-413">
+                I am simply another soul going through life as a human who likes technology, startups,product management and analytics. 
+                Outside of work, I like to sing, paint, do yoga, and have a strong interest in spirituality.
+            </p>
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-end m-8 absolute top-80 right-0">
+        <a href="" class="text-pink font-inter font-medium text-2xl underline py-6 px-12">Home</a>
+        <a href="" class="text-white font-inter font-medium text-2xl  py-6 px-12">Work</a>
+    </div>
+    </body>
+</html>
